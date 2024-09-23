@@ -6,7 +6,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the saved Ridge model
-model = joblib.load('House_Predict_Price/Notebook/ridge_regression_model.pkl')
+model = joblib.load('/Users/shivamsharma10/Downloads/DS & ML/Hands-On_ Predicting House Prices/House_Predict_Price/Notebook/ridge_regression_model.pkl')
 
 @app.route('/')
 def home():
